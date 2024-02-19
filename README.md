@@ -1,6 +1,7 @@
 # Wetrekker徜徉行旅 后台代码
 + wetrekker-flask-new
-+ 基于flask开发
++ 基于flask开发的
+（第二次提交）
 
 ## 建议调试流程
 1. （github拉最新的代码）
