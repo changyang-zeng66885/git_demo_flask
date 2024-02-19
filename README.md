@@ -1,9 +1,6 @@
 # Wetrekker徜徉行旅 后台代码
-+ wetrekker-flask-new
-+ 基于flask开发的
-（第二次提交）
-（master分支第一次修改）
-（这是dev分支的内容）
++ git_demo_flask
++ 基于flask开发的 后端代码
 
 ## 建议调试流程
 1. （github拉最新的代码）
