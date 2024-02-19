@@ -1,6 +1,6 @@
 # Wetrekker徜徉行旅 后台代码
 + git_demo_flask
-+ 基于flask开发的 后端代码
++ 基于flask开发的 后端代码 新的push
 
 ## 建议调试流程
 1. （github拉最新的代码）
