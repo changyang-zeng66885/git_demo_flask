@@ -5,9 +5,20 @@ from sqlalchemy.exc import OperationalError
 from wxcloudrun import db
 from wxcloudrun.model import Counters,Spot
 
+import json
+
 # 初始化日志
 logger = logging.getLogger('log')
 
+def exeuteSQL(sql_query):
+    try:
+        result = db.engine.execute(sql_query)
+        result_dict = dict(result)
+        result_json = json.dumps(result_dict,ensure_ascii=False)
+        #print(result_json)
+    except:
+        result_json = {}
+    return result_json
 
 # Counters表
 def query_counterbyid(id):
